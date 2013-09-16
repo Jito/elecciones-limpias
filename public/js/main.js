@@ -171,7 +171,6 @@ $('#submission-form').fileupload({
 });
 
 
-
 $("#step-locate-done").click(function(){
     $('#submission-form').easyWizard('goToStep', 3);
 });
@@ -179,6 +178,5 @@ $("#step-locate-done").click(function(){
 $("#submission-cancel").click(function(){
     $('#submission-form').easyWizard('goToStep', 1);
 });
-
 
 }); // ~ Omega
